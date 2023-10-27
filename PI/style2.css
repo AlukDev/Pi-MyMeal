@@ -1,0 +1,69 @@
+body {
+  margin: 0px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url(img/banner1/layer1.png);
+  font-family: 'Titillium Web', sans-serif;
+}
+
+
+.ct-geral {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.308);
+  height: 150px;
+  width: 400px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ct-login {
+  margin-top: 30px;
+  padding-bottom: 4px;
+}
+
+.ct-button {
+    display: flex;
+  margin-top: 1px;
+  flex-direction: row;
+  width: 200px;
+  justify-content: space-around;
+}
+
+.bt-entrar {
+  margin-top: 10px;
+}
+.bt-entrar:hover {
+  background-color: rgb(232, 220, 83);
+}
+
+.link-bt {
+  text-decoration: none;
+  color: black;
+}
+
+label {
+  color: white;
+}
+
+.bt-cadastro{
+  margin-top: 10px;
+}
+
+.forgot-pass{
+  margin-top: 10px;
+  color: white;
+}
+
+.forgot-pass:hover{
+  color: rgb(232, 220, 83);
+}
+
+.bt-cadastro:hover{
+  background-color: rgb(232, 220, 83);
+}
+
